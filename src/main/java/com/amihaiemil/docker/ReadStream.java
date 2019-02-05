@@ -28,8 +28,8 @@ package com.amihaiemil.docker;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ResponseHandler;
 
 /**
  * Handler that returns the stream response as a Reader.

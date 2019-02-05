@@ -25,7 +25,7 @@
  */
 package com.amihaiemil.docker;
 
-import org.apache.http.impl.client.HttpClients;
+import cz.msebera.android.httpclient.impl.client.HttpClients;
 
 /**
  * Plain HTTP (no TLS) client.

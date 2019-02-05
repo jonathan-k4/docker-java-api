@@ -28,7 +28,7 @@ package com.amihaiemil.docker;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import org.apache.http.client.utils.URIBuilder;
+import cz.msebera.android.httpclient.client.utils.URIBuilder;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.collection.IsIterableWithSize;
 import org.hamcrest.core.IsEqual;

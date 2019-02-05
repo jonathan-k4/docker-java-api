@@ -35,9 +35,9 @@ import java.nio.charset.Charset;
 import javax.json.Json;
 import javax.json.JsonObject;
 
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpStatus;
-import org.apache.http.util.EntityUtils;
+import cz.msebera.android.httpclient.HttpEntityEnclosingRequest;
+import cz.msebera.android.httpclient.HttpStatus;
+import cz.msebera.android.httpclient.util.EntityUtils;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.IsEqual;
 import org.junit.Test;

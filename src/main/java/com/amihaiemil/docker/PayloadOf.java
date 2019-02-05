@@ -28,9 +28,9 @@ package com.amihaiemil.docker;
 import java.io.IOException;
 import javax.json.Json;
 import javax.json.JsonObject;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpRequest;
-import org.apache.http.HttpResponse;
+import cz.msebera.android.httpclient.HttpEntityEnclosingRequest;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.HttpResponse;
 
 /**
  * JSON payload of an HttpRequest.

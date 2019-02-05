@@ -28,8 +28,8 @@ package com.amihaiemil.docker;
 import java.io.IOException;
 import javax.json.Json;
 import javax.json.JsonObject;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ResponseHandler;
 
 /**
  * Handler that reads a JsonObject from the response.

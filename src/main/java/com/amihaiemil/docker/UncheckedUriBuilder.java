@@ -27,7 +27,7 @@ package com.amihaiemil.docker;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import org.apache.http.client.utils.URIBuilder;
+import cz.msebera.android.httpclient.client.utils.URIBuilder;
 
 /**
  * A {@link URIBuilder} that hides checked exceptions in the methods used

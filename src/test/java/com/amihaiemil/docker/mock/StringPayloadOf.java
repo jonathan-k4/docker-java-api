@@ -26,9 +26,9 @@
 package com.amihaiemil.docker.mock;
 
 import java.io.IOException;
-import org.apache.http.HttpEntityEnclosingRequest;
-import org.apache.http.HttpRequest;
-import org.apache.http.util.EntityUtils;
+import cz.msebera.android.httpclient.HttpEntityEnclosingRequest;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.util.EntityUtils;
 
 /**
  * String payload of an HttpRequest.

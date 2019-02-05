@@ -26,9 +26,9 @@
 package com.amihaiemil.docker;
 
 import java.io.IOException;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.util.EntityUtils;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ResponseHandler;
+import cz.msebera.android.httpclient.util.EntityUtils;
 
 /**
  * Handler that returns the response content as a String.

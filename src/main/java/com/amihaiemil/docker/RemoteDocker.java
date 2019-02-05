@@ -28,7 +28,7 @@ package com.amihaiemil.docker;
 import java.net.URI;
 import java.nio.file.Path;
 
-import org.apache.http.client.HttpClient;
+import cz.msebera.android.httpclient.client.HttpClient;
 
 /**
  * Use this to communicate with a remote Docker API.

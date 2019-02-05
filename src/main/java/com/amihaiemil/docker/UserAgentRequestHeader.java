@@ -29,9 +29,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collections;
 import java.util.Properties;
-import org.apache.http.HttpHeaders;
-import org.apache.http.client.protocol.RequestDefaultHeaders;
-import org.apache.http.message.BasicHeader;
+import cz.msebera.android.httpclient.HttpHeaders;
+import cz.msebera.android.httpclient.client.protocol.RequestDefaultHeaders;
+import cz.msebera.android.httpclient.message.BasicHeader;
 
 /**
  * User Agent Request Header Interceptor.
@@ -57,12 +57,7 @@ final class UserAgentRequestHeader extends RequestDefaultHeaders {
         super(Collections.singletonList(
             new BasicHeader(
                 HttpHeaders.USER_AGENT,
-                String.join(
-                    " ",
-                    "docker-java-api /",
-                    version(),
-                    "See https://github.com/amihaiemil/docker-java-api"
-                )
+                "docker-java-api / " + version() + " See https://github.com/amihaiemil/docker-java-api"
             )
         ));
     }

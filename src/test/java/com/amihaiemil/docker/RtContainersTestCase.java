@@ -33,7 +33,7 @@ import java.net.URI;
 import java.util.concurrent.atomic.AtomicInteger;
 import javax.json.Json;
 import javax.json.JsonObject;
-import org.apache.http.HttpStatus;
+import cz.msebera.android.httpclient.HttpStatus;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.Test;

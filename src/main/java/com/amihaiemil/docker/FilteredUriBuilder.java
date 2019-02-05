@@ -32,8 +32,8 @@ import java.util.Map;
 import javax.json.Json;
 import javax.json.JsonArrayBuilder;
 import javax.json.JsonObjectBuilder;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.utils.URIBuilder;
+import cz.msebera.android.httpclient.NameValuePair;
+import cz.msebera.android.httpclient.client.utils.URIBuilder;
 
 /**
  * {@link URIBuilder} with filtering.

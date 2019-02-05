@@ -30,9 +30,9 @@ import java.nio.file.Path;
 import java.security.GeneralSecurityException;
 import java.util.function.Supplier;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.ssl.SSLContexts;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.impl.client.HttpClients;
+import cz.msebera.android.httpclient.ssl.SSLContexts;
 
 /**
  * An HttpClient that works over a normal network socket.
@@ -58,7 +58,7 @@ final class SslHttpClient extends HttpClientEnvelope {
                 return HttpClients.custom()
                     .setMaxConnPerRoute(10)
                     .setMaxConnTotal(10)
-                    .setSSLContext(
+                    .setSslcontext(
                         SSLContexts.custom()
                             .loadTrustMaterial(trust.toFile())
                             .loadKeyMaterial(keys.toFile(), storePwd, keyPwd)

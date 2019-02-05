@@ -26,7 +26,7 @@
 package com.amihaiemil.docker.mock;
 
 import java.util.function.Predicate;
-import org.apache.http.HttpRequest;
+import cz.msebera.android.httpclient.HttpRequest;
 import org.junit.Assert;
 
 /**

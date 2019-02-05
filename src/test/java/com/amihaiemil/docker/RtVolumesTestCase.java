@@ -32,7 +32,7 @@ import java.io.IOException;
 import java.net.URI;
 import javax.json.Json;
 import javax.json.JsonObject;
-import org.apache.http.HttpStatus;
+import cz.msebera.android.httpclient.HttpStatus;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.IsEqual;
 import org.junit.Test;

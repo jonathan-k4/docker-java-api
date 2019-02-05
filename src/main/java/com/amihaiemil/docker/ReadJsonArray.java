@@ -25,8 +25,8 @@
  */
 package com.amihaiemil.docker;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ResponseHandler;
 import javax.json.Json;
 import javax.json.JsonArray;
 import java.io.IOException;

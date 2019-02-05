@@ -27,9 +27,9 @@ package com.amihaiemil.docker;
 
 import java.io.IOException;
 import javax.json.JsonObject;
-import org.apache.http.HttpStatus;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
+import cz.msebera.android.httpclient.HttpStatus;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.client.methods.HttpGet;
 
 /**
  * An inpsection upon any of the Docker resources.

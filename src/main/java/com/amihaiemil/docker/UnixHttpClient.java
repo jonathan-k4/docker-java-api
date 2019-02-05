@@ -25,13 +25,14 @@
  */
 package com.amihaiemil.docker;
 
-import org.apache.http.client.HttpClient;
-import org.apache.http.config.RegistryBuilder;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.impl.client.HttpClientBuilder;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.config.RegistryBuilder;
+import cz.msebera.android.httpclient.conn.socket.ConnectionSocketFactory;
+import cz.msebera.android.httpclient.impl.client.HttpClientBuilder;
 import java.io.File;
 import java.util.function.Supplier;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import cz.msebera.android.httpclient.impl.conn.PoolingHttpClientConnectionManager;
+import java.net.URL;
 
 /**
  * An HttpClient which works over a UnixSocket.
@@ -49,6 +50,10 @@ final class UnixHttpClient extends HttpClientEnvelope {
      */
     UnixHttpClient(final File socketFile) {
         this(() -> {
+
+            ClassLoader classLoader = UnixHttpClient.class.getClassLoader();
+            URL resource = classLoader.getResource("org/apache/http/message/BasicLineFormatter.class");
+            System.out.println(resource);
             final PoolingHttpClientConnectionManager pool =
                 new PoolingHttpClientConnectionManager(
                     RegistryBuilder

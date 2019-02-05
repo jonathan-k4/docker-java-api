@@ -27,8 +27,8 @@ package com.amihaiemil.docker;
 
 import com.amihaiemil.docker.mock.AssertRequest;
 import com.amihaiemil.docker.mock.Response;
-import org.apache.http.HttpStatus;
-import org.apache.http.client.methods.HttpGet;
+import cz.msebera.android.httpclient.HttpStatus;
+import cz.msebera.android.httpclient.client.methods.HttpGet;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.Test;

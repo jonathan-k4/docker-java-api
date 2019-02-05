@@ -31,9 +31,9 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import jnr.unixsocket.UnixSocketAddress;
 import jnr.unixsocket.UnixSocketChannel;
-import org.apache.http.HttpHost;
-import org.apache.http.conn.socket.ConnectionSocketFactory;
-import org.apache.http.protocol.HttpContext;
+import cz.msebera.android.httpclient.HttpHost;
+import cz.msebera.android.httpclient.conn.socket.ConnectionSocketFactory;
+import cz.msebera.android.httpclient.protocol.HttpContext;
 
 /**
  * Provides unix sockets connecting to a given unix socket file.

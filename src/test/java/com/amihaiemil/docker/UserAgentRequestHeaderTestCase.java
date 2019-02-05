@@ -27,10 +27,10 @@ package com.amihaiemil.docker;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.apache.http.Header;
-import org.apache.http.HttpRequest;
-import org.apache.http.RequestLine;
-import org.apache.http.params.BasicHttpParams;
+import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.HttpRequest;
+import cz.msebera.android.httpclient.RequestLine;
+import cz.msebera.android.httpclient.params.BasicHttpParams;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.IsEqual;
 import org.junit.Test;

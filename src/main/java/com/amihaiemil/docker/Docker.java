@@ -26,7 +26,7 @@
 package com.amihaiemil.docker;
 
 import java.io.IOException;
-import org.apache.http.client.HttpClient;
+import cz.msebera.android.httpclient.client.HttpClient;
 
 /**
  * Docker API entry point.

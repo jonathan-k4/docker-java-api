@@ -27,8 +27,8 @@ package com.amihaiemil.docker;
 
 import java.io.File;
 import java.io.IOException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
+import cz.msebera.android.httpclient.client.HttpClient;
+import cz.msebera.android.httpclient.client.methods.HttpGet;
 import org.junit.Ignore;
 import org.junit.Test;
 

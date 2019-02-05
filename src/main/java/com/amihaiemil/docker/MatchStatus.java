@@ -26,8 +26,8 @@
 package com.amihaiemil.docker;
 
 import java.net.URI;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ResponseHandler;
+import cz.msebera.android.httpclient.HttpResponse;
+import cz.msebera.android.httpclient.client.ResponseHandler;
 
 /**
  * An Apache ResponseHandler that tries to match the Response's status code

@@ -27,7 +27,7 @@ package com.amihaiemil.docker;
 
 import java.io.File;
 import java.net.URI;
-import org.apache.http.client.HttpClient;
+import cz.msebera.android.httpclient.client.HttpClient;
 
 /**
  * Local Docker API. Use this when you want to communicate with the local
